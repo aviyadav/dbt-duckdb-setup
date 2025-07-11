@@ -1,0 +1,88 @@
+[0m15:58:45.072054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d399339c710>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3995255a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d399339e390>]}
+
+
+============================== 15:58:45.165944 | a9518d9f-54e5-4f9f-927a-40aec1ffb711 ==============================
+[0m15:58:45.165944 [info ] [MainThread]: Running with dbt=1.10.4
+[0m15:58:45.166727 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/avinash/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m15:58:45.260258 [info ] [MainThread]: Creating dbt configuration folder at /home/avinash/.dbt
+[0m15:59:48.013586 [debug] [MainThread]: Starter project path: /home/avinash/home/codebase/dbt-duckdb-setup/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m15:59:48.024554 [info ] [MainThread]: 
+Your new dbt project "dbt_code" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:59:48.025466 [info ] [MainThread]: Setting up your profile.
+[0m15:59:53.769521 [info ] [MainThread]: Profile dbt_code written to /home/avinash/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m15:59:53.770801 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 68.7924, "process_in_blocks": "29024", "process_kernel_time": 0.576579, "process_mem_max_rss": "119660", "process_out_blocks": "1720", "process_user_time": 2.230243}
+[0m15:59:53.771380 [debug] [MainThread]: Command `dbt init` succeeded at 15:59:53.771244 after 68.79 seconds
+[0m15:59:53.771773 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3995255a00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3993b27260>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7d3992a7d8b0>]}
+[0m15:59:53.772195 [debug] [MainThread]: Flushing usage events
+[0m15:59:55.124567 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m16:05:18.540536 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a962347c080>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9621a6ec30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a96215701a0>]}
+
+
+============================== 16:05:18.547974 | 0b9ec121-f8a5-4520-a0b6-893aa01446bc ==============================
+[0m16:05:18.547974 [info ] [MainThread]: Running with dbt=1.10.4
+[0m16:05:18.548962 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/home/avinash/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m16:05:18.591979 [info ] [MainThread]: dbt version: 1.10.4
+[0m16:05:18.592646 [info ] [MainThread]: python version: 3.12.3
+[0m16:05:18.593166 [info ] [MainThread]: python path: /home/avinash/home/codebase/dbt-duckdb-setup/.venv/bin/python3
+[0m16:05:18.593610 [info ] [MainThread]: os info: Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.39
+[0m16:05:18.798967 [info ] [MainThread]: Using profiles dir at /home/avinash/.dbt
+[0m16:05:18.799796 [info ] [MainThread]: Using profiles.yml file at /home/avinash/.dbt/profiles.yml
+[0m16:05:18.800369 [info ] [MainThread]: Using dbt_project.yml file at /home/avinash/home/codebase/dbt-duckdb-setup/dbt_project.yml
+[0m16:05:18.804532 [info ] [MainThread]: adapter type: duckdb
+[0m16:05:18.805068 [info ] [MainThread]: adapter version: 1.9.4
+[0m16:05:18.805662 [info ] [MainThread]: Configuration:
+[0m16:05:18.806174 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m16:05:18.807161 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m16:05:18.807861 [info ] [MainThread]: Required dependencies:
+[0m16:05:18.808787 [debug] [MainThread]: Executing "git --help"
+[0m16:05:18.815349 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m16:05:18.816416 [debug] [MainThread]: STDERR: "b''"
+[0m16:05:18.817149 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m16:05:18.817945 [info ] [MainThread]: Connection:
+[0m16:05:18.818753 [info ] [MainThread]:   database: dev
+[0m16:05:18.819531 [info ] [MainThread]:   schema: main
+[0m16:05:18.820324 [info ] [MainThread]:   path: dev.duckdb
+[0m16:05:18.820964 [info ] [MainThread]:   config_options: None
+[0m16:05:18.821621 [info ] [MainThread]:   extensions: None
+[0m16:05:18.822314 [info ] [MainThread]:   settings: {}
+[0m16:05:18.823072 [info ] [MainThread]:   external_root: .
+[0m16:05:18.823790 [info ] [MainThread]:   use_credential_provider: None
+[0m16:05:18.824482 [info ] [MainThread]:   attach: None
+[0m16:05:18.825083 [info ] [MainThread]:   filesystems: None
+[0m16:05:18.825739 [info ] [MainThread]:   remote: None
+[0m16:05:18.826250 [info ] [MainThread]:   plugins: None
+[0m16:05:18.826912 [info ] [MainThread]:   disable_transactions: False
+[0m16:05:18.827791 [info ] [MainThread]: Registered adapter: duckdb=1.9.4
+[0m16:05:18.985148 [debug] [MainThread]: Acquiring new duckdb connection 'debug'
+[0m16:05:19.061265 [debug] [MainThread]: Using duckdb connection "debug"
+[0m16:05:19.062128 [debug] [MainThread]: On debug: select 1 as id
+[0m16:05:19.062717 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m16:05:19.213183 [debug] [MainThread]: SQL status: OK in 0.150 seconds
+[0m16:05:19.214806 [debug] [MainThread]: On debug: Close
+[0m16:05:19.215638 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m16:05:19.216211 [info ] [MainThread]: [31m1 check failed:[0m
+[0m16:05:19.216715 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/avinash/home/codebase/dbt-duckdb-setup/dbt_project.yml> not found
+
+[0m16:05:19.219131 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.7689398, "process_in_blocks": "136608", "process_kernel_time": 0.778398, "process_mem_max_rss": "135488", "process_out_blocks": "392", "process_user_time": 2.461532}
+[0m16:05:19.219993 [debug] [MainThread]: Command `dbt debug` failed at 16:05:19.219813 after 0.77 seconds
+[0m16:05:19.220459 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m16:05:19.220953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9621a0af30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a961ce9e120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7a9621a964e0>]}
+[0m16:05:19.221624 [debug] [MainThread]: Flushing usage events
+[0m16:05:20.304680 [debug] [MainThread]: An error was encountered while trying to flush usage events

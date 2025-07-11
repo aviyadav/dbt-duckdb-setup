@@ -1,0 +1,19 @@
+mkdir dbt-duckdb-setup
+cd dbt-duckdb-setup
+uv venv
+source .venv/bin/activate
+
+uv pip install dbt-core dbt-duckdb
+
+dbt init <dbt_code>
+
+duckdb dev.duckdb
+
+// with UI
+duckdb -ui dev.duckdb
+
+<WIN - ctrl + enter> to run the macro
+<Mac - Command + enter> to run the macro
+
+SRC- https://www.youtube.com/@AIgineer
+https://github.com/AIgineerAB/data-engineering-OPA24/tree/main/06_setup_dbt
