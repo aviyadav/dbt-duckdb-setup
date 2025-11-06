@@ -1,0 +1,5 @@
+models:
+  - name: parquet_model
+    description: "A model that reads data from a Parquet file."
+  - name: csv_model
+    description: "A model that reads data from a CSV file."

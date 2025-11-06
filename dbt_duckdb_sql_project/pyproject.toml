@@ -1,0 +1,11 @@
+[project]
+name = "dbt-duckdb-setup"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dbt>=1.0.0.40.8",
+    "dbt-duckdb>=1.10.0",
+    "duckdb>=1.4.1",
+]
