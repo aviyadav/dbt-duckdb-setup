@@ -1,3 +1,6 @@
+# DBT DUCKDB
+
+```
 mkdir dbt-duckdb-setup
 cd dbt-duckdb-setup
 uv venv
@@ -17,3 +20,4 @@ duckdb -ui dev.duckdb
 
 SRC- https://www.youtube.com/@AIgineer
 https://github.com/AIgineerAB/data-engineering-OPA24/tree/main/06_setup_dbt
+```
