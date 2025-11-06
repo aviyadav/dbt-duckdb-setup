@@ -1,1 +1,40 @@
+# DBT DUCKDB SQL PROJECT
 
+
+[data]
+https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+
+
+[INIT]
+cd dbt_duckdb_setup
+
+uv init . 
+uv add duckdb dbt-duckdb dbt
+
+
+[DBT proj setup]
+uv run dbt init dbt_duckdb_sql_project
+
+
+[setup verification]
+dbt debug
+
+
+[RUN]
+dbt run
+
+
+[check the data]
+
+duckdb dev.duckdb
+
+select * from read_parquet('data/yellow_tripdata_2025-09.parquet') LIMIT 10;
+select * from read_csv('data/life-expectancy-data.csv') LIMIT 10;
+
+
+[TEST]
+duckdb dev.duckdb
+
+
+from main_main.parquet_model;
+from main_main.csv_model;
