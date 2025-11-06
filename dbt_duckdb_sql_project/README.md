@@ -7,12 +7,13 @@ https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 
 
 #### [INIT]
-
+```
 cd dbt_duckdb_setup
 
 uv init . 
 
 uv add duckdb dbt-duckdb dbt
+```
 
 
 #### [DBT proj setup]
