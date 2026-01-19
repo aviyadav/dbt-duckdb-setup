@@ -1,0 +1,5 @@
+
+sources:
+  - name: local_fs
+    tables:
+      - name: raw_transactions

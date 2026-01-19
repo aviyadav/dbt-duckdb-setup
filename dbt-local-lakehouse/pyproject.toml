@@ -1,0 +1,14 @@
+[project]
+name = "local-lakehouse"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dbt-core>=1.11.2",
+    "dbt-duckdb>=1.10.0",
+    "duckdb>=1.4.3",
+    "pandas>=2.3.3",
+    "polars>=1.37.1",
+    "pyarrow>=23.0.0",
+]
