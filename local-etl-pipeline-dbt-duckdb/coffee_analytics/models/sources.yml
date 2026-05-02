@@ -1,0 +1,8 @@
+sources:
+    - name: bean_raw
+      # Our schema is raw - can be found in step 1
+      schema: raw
+      tables:
+          # We have two tables - source_sales and source_budget
+          - name: source_sales
+          - name: source_budget

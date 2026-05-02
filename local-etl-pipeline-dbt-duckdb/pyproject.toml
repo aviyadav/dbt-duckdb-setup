@@ -1,0 +1,15 @@
+[project]
+name = "local-etl-pipeline-dbt-duckdb"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dbt>=1.0.0.40.17",
+    "dbt-duckdb>=1.10.1",
+    "duckdb>=1.5.2",
+    "faker>=40.15.0",
+    "pandas>=3.0.2",
+    "polars>=1.40.1",
+    "pyarrow>=24.0.0",
+]

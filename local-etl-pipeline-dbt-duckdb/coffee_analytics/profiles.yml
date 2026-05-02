@@ -1,0 +1,8 @@
+coffee_analytics:
+    outputs:
+        dev:
+            type: duckdb
+            path: /home/avinash/codebase/python-base/local-etl-pipeline-dbt-duckdb/coffee_analytics/coffeeshop.duckdb
+            threads: 2
+
+    target: dev
